@@ -33,8 +33,6 @@ public class Flight {
 
     String name;
 
-    Instant date;
-
     String place;
 
     BigDecimal price;
