@@ -1,4 +1,0 @@
-spring:
-  config:
-    enabled: true
-    uri: http://localhost:7076
