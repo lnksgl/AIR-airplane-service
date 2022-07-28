@@ -1,4 +1,4 @@
-package avia.airplane_service;
+package avia.flight_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

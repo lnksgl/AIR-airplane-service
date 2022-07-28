@@ -1,16 +1,15 @@
 spring:
   application:
-    name: airplane_service
-#TODO
-#  datasource:
-#    driver-class-name: org.postgresql.Driver
-#    url: jdbc:postgresql://localhost:5432/avia-airplane
-#    username: postgres
-#    password: postgre
-#  jpa:
-#    show-sql: true
-#    hibernate:
-#      ddl-auto: validate
+    name: flight_service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/avia-flight
+    username: postgres
+    password: postgre
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
   zipkin:
     base-url: http://127.0.0.1:9411/
 
